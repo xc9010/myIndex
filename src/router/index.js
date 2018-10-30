@@ -8,6 +8,10 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'index'
+    },
+    {
+      path: '/helloworld',
       name: 'HelloWorld',
       component: HelloWorld
     }
